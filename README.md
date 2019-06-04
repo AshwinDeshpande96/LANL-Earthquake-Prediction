@@ -43,9 +43,11 @@ We propose two types of models:
 ![DenseNet5](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/regression%20model.jpeg)
 * Gradient Boost Methods
   * XGBOOST
-  ![XGBOOST-Tree](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/cgb-tree.png)
+  <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/cgb-tree.png" height="300">
+  
   * LightGBM
-  ![LightGBM-Tree](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgb_tree.png)
+  <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgb_tree.png" height="300">
+  
 
 LightGBM gives the best performance. However, our main goal is to use deep learning techniques for this problem.
 
@@ -64,9 +66,7 @@ Following is the training score plotted against EPOCHs
 Most important features: 
 * LightGBM
 
-![LightGBM Important Features](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lgb_imp_features.png)
-
+<img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lgb_imp_features.png" width="200" height="350">
 * XGBOOST
 
-![XGBOOST Important Features](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/xgb_imp_feat.png)
-
+<img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/cgb_imp_feat.png" width="200" height="350">
