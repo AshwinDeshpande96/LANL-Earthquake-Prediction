@@ -63,8 +63,8 @@ We see that Dense Net with 5 hidden layers overfits. Hence we reduce the network
 
 Following is the huber loss plotted against time
 <p align="center">
-![LightGBM Training](training_time_lgb.png)
-</p>
+<img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgbm_training.png" width=400 height="550">
+ </p>
 Most important features: 
 * LightGBM
 <p align="center">
