@@ -30,7 +30,7 @@ Our first goal is to find features that can be used to fit model. Since 'acousti
 * Trends
 * Rolling Features
 
-Estimated Features: ![Important features](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/Data_vis.jpg)
+Estimated Features: ![Important features](Data_vis.jpg)
 
 For more details: [Baseline Model](https://www.kaggle.com/jsaguiar/baseline-with-multiple-models)
 
@@ -40,14 +40,14 @@ We experiment with datasets of two sizes: 124 features and 550 features. Hence o
 ## 3. Network Modelling
 We propose two types of models:
 * Neural Network (Fully Connected Dense Nets)
-<img src="regression%20model.jpeg" height="300">
-![DenseNet5](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/regression%20model.jpeg)
+<img src="regression%20model.jpeg" height="500">
+
 * Gradient Boost Methods
   * XGBOOST
-  <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/cgb-tree.png" height="300">
+  <img src="cgb-tree.png" height="300">
   
   * LightGBM
-  <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgb_tree.png" height="300">
+  <img src="lightgb_tree.png" height="300">
   
 
 LightGBM gives the best performance. However, our main goal is to use deep learning techniques for this problem.
@@ -67,7 +67,7 @@ Following is the training score plotted against EPOCHs
 Most important features: 
 * LightGBM
 
-<img src="lgb_imp_features.png" height="500">
+<img src="lgb_imp_features.png" height="550">
 * XGBOOST
 
-<img src="xgb_imp_feat.png" height="500">
+<img src="xgb_imp_feat.png" height="550">
