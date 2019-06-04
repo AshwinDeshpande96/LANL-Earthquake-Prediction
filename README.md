@@ -32,12 +32,20 @@ Our first goal is to find features that can be used to fit model. Since 'acousti
 
 For more details: [Baseline Model](https://www.kaggle.com/jsaguiar/baseline-with-multiple-models)
 
-We extract 550 such features from the data. Hence our dataset is of size [4196, 550].
+We experiment with datasets of two sizes: 124 features and 550 features. Hence our datasets will be of size (4195, 124) or (4195, 550).
 
 ## 3. Network Modelling
-We propose 2 models:
+We propose two types of models:
 * Neural Network (Fully Connected Dense Nets)
 * Gradient Boost Methods
   * XGBOOST
   * LightGBM
+The best performance is seen by LightGBM.
+Our main goal was however to use deep learning techniques for this problem.
+Kaggle scores for the models were as follows:
+* Neural Network with 5 Dense Layers - 2.98
+* Neural Network with 2 Dense Layers - 2.97
+* XGBOOST - 2.58
+* LightGBM - 2.55
 
+We see that Dense Net with 5 hidden layers overfits and hence we reduce the network to 2 hidden layers.
