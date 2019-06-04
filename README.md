@@ -52,4 +52,4 @@ Kaggle scores for the models were as follows:
 * XGBOOST - 2.58
 * LightGBM - 2.55
 
-We see that Dense Net with 5 hidden layers overfits and hence we reduce the network to 2 hidden layers.
+We see that Dense Net with 5 hidden layers overfits. Hence we reduce the network to 2 hidden layers.
