@@ -36,9 +36,11 @@ For more details: [Baseline Model](https://www.kaggle.com/jsaguiar/baseline-with
 
 We experiment with datasets of two sizes: 124 features and 550 features. Hence our datasets will be of size (4195, 124) or (4195, 550).
 
+
 ## 3. Network Modelling
 We propose two types of models:
 * Neural Network (Fully Connected Dense Nets)
+![DenseNet5](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/regression%20model.jpeg)
 * Gradient Boost Methods
   * XGBOOST
   * LightGBM
@@ -48,7 +50,6 @@ Our main goal is however to use deep learning techniques for this problem.
 
 Kaggle scores for the models were as follows:
 * Neural Network with 5 Dense Layers - 2.98
-![DenseNet5](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/regression%20model.jpeg)
 * Neural Network with 2 Dense Layers - 2.97
 * XGBOOST - 2.58
 * LightGBM - 2.55
