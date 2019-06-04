@@ -47,7 +47,7 @@ We propose two types of models:
   <img src="cgb-tree.png" height="300">
   
   * LightGBM
-  <img src="lightgb_tree.png" height="300">
+  <img src="lightgb_tree.png" height="500">
   
 
 LightGBM gives the best performance. However, our main goal is to use deep learning techniques for this problem.
