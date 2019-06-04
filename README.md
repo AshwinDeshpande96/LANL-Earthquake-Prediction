@@ -45,8 +45,7 @@ We propose two types of models:
   * XGBOOST
   * LightGBM
 
-LightGBM gives the best performance.
-Our main goal is however to use deep learning techniques for this problem.
+LightGBM gives the best performance. However, our main goal is to use deep learning techniques for this problem.
 
 Kaggle scores for the models were as follows:
 * Neural Network with 5 Dense Layers - 2.98
