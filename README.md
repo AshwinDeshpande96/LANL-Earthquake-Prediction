@@ -34,7 +34,7 @@ Estimated Features: ![Important features](Data_vis.jpg)
 
 For more details: [Baseline Model](https://www.kaggle.com/jsaguiar/baseline-with-multiple-models)
 
-We experiment with datasets of two sizes: 124 features and 550 features. Hence our datasets will be of size (4195, 124) or (4195, 550).
+We experiment with 124 features. Hence our datasets will be of size (4195, 124).
 
 
 ## 3. Network Modelling
