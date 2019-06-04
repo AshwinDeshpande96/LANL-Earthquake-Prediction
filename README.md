@@ -40,6 +40,7 @@ We experiment with datasets of two sizes: 124 features and 550 features. Hence o
 ## 3. Network Modelling
 We propose two types of models:
 * Neural Network (Fully Connected Dense Nets)
+<img src="regression%20model.jpeg" height="300">
 ![DenseNet5](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/regression%20model.jpeg)
 * Gradient Boost Methods
   * XGBOOST
@@ -61,12 +62,12 @@ We see that Dense Net with 5 hidden layers overfits. Hence we reduce the network
 
 Following is the training score plotted against EPOCHs
 
-![LightGBM Training](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/training_time_lgb.png)
+![LightGBM Training](training_time_lgb.png)
 
 Most important features: 
 * LightGBM
 
-<img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lgb_imp_features.png" width="200" height="350">
+<img src="lgb_imp_features.png" height="500">
 * XGBOOST
 
-<img src="xgb_imp_feat.png" width="200" height="350">
+<img src="xgb_imp_feat.png" height="500">
