@@ -43,7 +43,9 @@ We propose two types of models:
 ![DenseNet5](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/regression%20model.jpeg)
 * Gradient Boost Methods
   * XGBOOST
+  ![XGBOOST-Tree](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/cgb-tree.png)
   * LightGBM
+  ![LightGBM-Tree](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgb_tree.png)
 
 LightGBM gives the best performance. However, our main goal is to use deep learning techniques for this problem.
 
@@ -54,3 +56,12 @@ Kaggle scores for the models were as follows:
 * LightGBM - 2.55
 
 We see that Dense Net with 5 hidden layers overfits. Hence we reduce the network to 2 hidden layers.
+
+Following is the training score plotted against EPOCHs
+![LightGBM Training](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/training_time_lgb.png)
+Most important features: 
+* LightGBM
+![LightGBM Important Features](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lgb_imp_features.png)
+* XGBOOST
+![XGBOOST Important Features](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/xgb_imp_feat.png)
+
