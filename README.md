@@ -68,9 +68,9 @@ Following is the huber loss plotted against time
 Most important features: 
 * LightGBM
 <p align="center">
-<img src="lgb_imp_features.png" height="550">
+<img src="lgb_imp_features.png" width=300 height="550">
  </p>
 * XGBOOST
 <p align="center">
-<img src="xgb_imp_feat.png" height="550">
+<img src="xgb_imp_feat.png" width=300 height="550">
  </p>
