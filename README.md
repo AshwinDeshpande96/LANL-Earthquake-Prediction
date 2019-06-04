@@ -72,5 +72,5 @@ Most important features:
  </p>
 * XGBOOST
 <p align="center">
-<img src="xgb_imp_feat.png" width=400 height="550">
+<img src="xgb_imp_feat.png" width=350 height="600">
  </p>
