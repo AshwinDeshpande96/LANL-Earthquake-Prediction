@@ -40,9 +40,9 @@ We experiment with datasets of two sizes: 124 features and 550 features. Hence o
 ## 3. Network Modelling
 We propose two types of models:
 * Neural Network (Fully Connected Dense Nets)
-
-<img align='center' src="regression%20model.jpeg" height="500">
-
+<p align="center">
+<img src="regression%20model.jpeg" height="500">
+</p>
 * Gradient Boost Methods
   * XGBOOST
   <img src="cgb-tree.png" height="300">
@@ -62,13 +62,15 @@ Kaggle scores for the models were as follows:
 We see that Dense Net with 5 hidden layers overfits. Hence we reduce the network to 2 hidden layers.
 
 Following is the huber loss plotted against time
-
+<p align="center">
 ![LightGBM Training](training_time_lgb.png)
-
+</p>
 Most important features: 
 * LightGBM
-
+<p align="center">
 <img src="lgb_imp_features.png" height="550">
+ </p>
 * XGBOOST
-
+<p align="center">
 <img src="xgb_imp_feat.png" height="550">
+ </p>
