@@ -42,6 +42,7 @@ We propose two types of models:
   * LightGBM
 The best performance is seen by LightGBM.
 Our main goal was however to use deep learning techniques for this problem.
+
 Kaggle scores for the models were as follows:
 * Neural Network with 5 Dense Layers - 2.98
 * Neural Network with 2 Dense Layers - 2.97
