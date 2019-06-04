@@ -58,10 +58,15 @@ Kaggle scores for the models were as follows:
 We see that Dense Net with 5 hidden layers overfits. Hence we reduce the network to 2 hidden layers.
 
 Following is the training score plotted against EPOCHs
+
 ![LightGBM Training](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/training_time_lgb.png)
+
 Most important features: 
 * LightGBM
+
 ![LightGBM Important Features](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lgb_imp_features.png)
+
 * XGBOOST
+
 ![XGBOOST Important Features](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/xgb_imp_feat.png)
 
