@@ -43,7 +43,7 @@ We propose two types of models:
   * XGBOOST
   * LightGBM
 
-The best performance is seen by LightGBM.
+LightGBM gives the best performance.
 Our main goal was however to use deep learning techniques for this problem.
 
 Kaggle scores for the models were as follows:
