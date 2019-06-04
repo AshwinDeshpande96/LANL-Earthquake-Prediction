@@ -47,7 +47,7 @@ Our main goal was however to use deep learning techniques for this problem.
 
 Kaggle scores for the models were as follows:
 * Neural Network with 5 Dense Layers - 2.98
-![DenseNet5)(https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/regression%20model.jpeg)
+![DenseNet5](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/regression%20model.jpeg)
 * Neural Network with 2 Dense Layers - 2.97
 * XGBOOST - 2.58
 * LightGBM - 2.55
