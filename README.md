@@ -11,16 +11,16 @@ The acoustic signal data is a laboratory generated data with approximately 629,4
 * acoustic_data
 * time_to_failure
 
-Our goal is to fit a model that takes as input 150,000 entries of acoustic_data and output a single time_to_failure value.
+Test data is of the size 2624 sets of 150,000 acoustic_data entries. Hence our training data is divided in sets of 150,000 
 
-Hence our problem is one of regression problem. It is understood that input data of 150,000 instances for a single feature
-will be of no significance, as we will not be able to extract useful information/pattern from this raw data.
+Our goal is to fit a model that takes as input 150,000 entries of acoustic_data and output a single time_to_failure value.
+Hence our problem is one of regression problem. It is understood that input data of 150,000 instances of a single feature
+alone will be of little significance, as we will not be able to extract useful information/pattern from this raw data.
 
 This project will consist of following subproblems:
 * Feature Engineering
 * Network Modelling
 
-Test data is of the size 2624 sets of 150,000 acoustic_data entries. Hence our training data is divided in sets of 150,000 
 ## 2. Feature Engineering
 Our first goal is to find features that can be used to fit model. Since 'acoustic_data' is raw data, we use it extract features such as
 * Minimum
