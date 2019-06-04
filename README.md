@@ -69,4 +69,4 @@ Most important features:
 <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lgb_imp_features.png" width="200" height="350">
 * XGBOOST
 
-<img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/cgb_imp_feat.png" width="200" height="350">
+<img src="xgb_imp_feat.png" width="200" height="350">
