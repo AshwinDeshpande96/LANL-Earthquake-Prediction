@@ -42,6 +42,7 @@ We propose two types of models:
 * Gradient Boost Methods
   * XGBOOST
   * LightGBM
+
 The best performance is seen by LightGBM.
 Our main goal was however to use deep learning techniques for this problem.
 
