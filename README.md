@@ -40,7 +40,8 @@ We experiment with datasets of two sizes: 124 features and 550 features. Hence o
 ## 3. Network Modelling
 We propose two types of models:
 * Neural Network (Fully Connected Dense Nets)
-<img src="regression%20model.jpeg" height="500">
+
+<img align='center' src="regression%20model.jpeg" height="500">
 
 * Gradient Boost Methods
   * XGBOOST
