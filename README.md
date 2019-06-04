@@ -30,20 +30,26 @@ Our first goal is to find features that can be used to fit model. Since 'acousti
 * Trends
 * Rolling Features
 
-Estimated Features: ![Important features](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/Data_vis.jpg)
+Estimated Features: ![Important features](Data_vis.jpg)
 
 For more details: [Baseline Model](https://www.kaggle.com/jsaguiar/baseline-with-multiple-models)
 
-We experiment with datasets of two sizes: 124 features and 550 features. Hence our datasets will be of size (4195, 124) or (4195, 550).
+We experiment with 124 features. Hence our datasets will be of size (4195, 124).
 
 
 ## 3. Network Modelling
 We propose two types of models:
 * Neural Network (Fully Connected Dense Nets)
-![DenseNet5](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/regression%20model.jpeg)
+<p align="center">
+<img src="regression%20model.jpeg" height="500">
+</p>
 * Gradient Boost Methods
   * XGBOOST
+  <img src="cgb-tree.png" height="300">
+  
   * LightGBM
+  <img src="lightgb_tree.png" height="500">
+  
 
 LightGBM gives the best performance. However, our main goal is to use deep learning techniques for this problem.
 
@@ -54,3 +60,17 @@ Kaggle scores for the models were as follows:
 * LightGBM - 2.55
 
 We see that Dense Net with 5 hidden layers overfits. Hence we reduce the network to 2 hidden layers.
+
+Following is the huber loss plotted against time
+<p align="center">
+![LightGBM Training](training_time_lgb.png)
+</p>
+Most important features: 
+* LightGBM
+<p align="center">
+<img src="lgb_imp_features.png" width=400 height="550">
+ </p>
+* XGBOOST
+<p align="center">
+<img src="xgb_imp_feat.png" width=350 height="600">
+ </p>
