@@ -49,6 +49,7 @@ We propose two types of models:
 #### 3.2.1. XGBOOST
  
    <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/xboost-tree.png" height="300">
+   
 #### 3.2.2. LightGBM
   
    <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgbm_tree.png" height="500">
