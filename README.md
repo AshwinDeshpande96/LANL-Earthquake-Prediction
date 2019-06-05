@@ -40,15 +40,18 @@ We experiment with 124 features. Hence our datasets will be of size (4195, 124).
 ## 3. Network Modelling
 We propose two types of models:
 * Neural Network (Fully Connected Dense Nets)
-<p align="center">
-<img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/neuralnet.jpeg" height="500">
-</p>
+   
+     <p align="center">
+     <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/neuralnet.jpeg" height="500">
+     </p>
+
 * Gradient Boost Methods
-  * XGBOOST
-  <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/xboost-tree.png" height="300">
+ * XGBOOST
+ 
+     <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/xboost-tree.png" height="300">
+ * LightGBM
   
-  * LightGBM
-  <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgbm_tree.png" height="500">
+      <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgbm_tree.png" height="500">
   
 
 LightGBM gives the best performance. However, our main goal is to use deep learning techniques for this problem.
@@ -62,15 +65,17 @@ Kaggle scores for the models were as follows:
 We see that Dense Net with 5 hidden layers overfits. Hence we reduce the network to 2 hidden layers.
 
 Following is the huber loss plotted against time
-<p align="center">
-<img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgbm_training.png">
- </p>
+
+   <p align="center">
+   <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgbm_training.png">
+   </p>
+
 Most important features: 
+
 * LightGBM
-<p align="center">
-<img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgbm_imp_ft.png" width=400 height="550">
- </p>
+ 
+ <p align="center"> <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgbm_imp_ft.png"  width=400 height="550"> </p>
+
 * XGBOOST
-<p align="center">
-<img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/xgboost_imp_ft.png" width=350 height="600">
- </p>
+
+<p align="center"> <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/xgboost_imp_ft.png" width=350 height="600"> </p>
