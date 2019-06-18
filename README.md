@@ -2,6 +2,8 @@
 ## 1. Introduction
 This project is a solution to Kaggle Competitive Challenge: [LANL Earthquake Prediction](https://www.kaggle.com/c/LANL-Earthquake-Prediction)
 
+[Code](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/LANL_Earthquake.ipynb)
+
 * Private: LB Score: 982, Score: 2.55368
 * Public: LB Score: 2752, Score: 1.54446
 
