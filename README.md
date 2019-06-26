@@ -72,7 +72,7 @@ Following is the huber loss plotted against time
    <p align="center">
    <img src="https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/lightgbm_training.png">
    </p>
-
+For more details: [Notebook](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/LANL_Earthquake.ipynb)
 Most important features: 
 
 ### 4.1. LightGBM
