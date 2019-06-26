@@ -4,7 +4,7 @@ This project is a solution to Kaggle Competitive Challenge: [LANL Earthquake Pre
 
 [Code](https://github.com/AshwinDeshpande96/LANL-Earthquake-Prediction/blob/master/LANL_Earthquake.ipynb)
 
-* Private: LB Score: 982, Score: 2.55368
+* Private: LB Score: 981, Score: 2.55368
 * Public: LB Score: 2752, Score: 1.54446
 
 Problem Statement: Given a dataset of acoustic signal predict the timing of earthquake.
